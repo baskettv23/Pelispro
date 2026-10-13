@@ -1,0 +1,29 @@
+{
+  "id": "pelispro",
+  "name": "PelisPro",
+  "version": "1.0.0",
+  "apiVersion": 6,
+  "entry": "plugin.js",
+  "author": "Basketboy23",
+  "description": "Películas y series de pelispro.net en HD, con reproducción en línea (Latino/Castellano).",
+  "hosts": [
+    "pelispro.net",
+    "*.pelispro.net",
+    "playmogo.com",
+    "*.playmogo.com",
+    "vimeus.com",
+    "*.vimeus.com"
+  ],
+  "capabilities": ["search", "home", "browse", "episodes", "resolve"],
+  "streamHosts": "any",
+  "browser": true,
+  "color": "#0369A1",
+  "categories": ["movies", "series"],
+  "theme": {
+    "accent": "#0369A1",
+    "onAccent": "#FFFFFF",
+    "background": "#0D0F14",
+    "surface": "#171B24",
+    "highlight": "#FFC24B"
+  }
+}
